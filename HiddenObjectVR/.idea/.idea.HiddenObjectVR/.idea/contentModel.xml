@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Booradley\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Booradley\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_HiddenObjectVR.-257820572.00" t="ExcludeRecursive" />
+    <e p="D:\git\ggj-2021\HiddenObjectVR" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Mirror" t="Include">
+          <e p="Authenticators" t="Include">
+            <e p="BasicAuthenticator.cs" t="Include" />
+            <e p="Mirror.Authenticators.asmdef" t="Include" />
+            <e p="TimeoutAuthenticator.cs" t="Include" />
+          </e>
+          <e p="Cloud" t="Include">
+            <e p="ApiConnector.cs" t="Include" />
+            <e p="Core" t="Include">
+              <e p="BaseApi.cs" t="Include" />
+              <e p="Events.cs" t="Include" />
+              <e p="Extensions.cs" t="Include" />
+              <e p="ICoroutineRunner.cs" t="Include" />
+              <e p="IRequestCreator.cs" t="Include" />
+              <e p="IUnityEqualCheck.cs" t="Include" />
+              <e p="JsonStructs.cs" t="Include" />
+              <e p="Logger.cs" t="Include" />
+              <e p="RequestCreator.cs" t="Include" />
+            </e>
+            <e p="ListServer" t="Include">
+              <e p="ListServer.cs" t="Include" />
+              <e p="ListServerBaseApi.cs" t="Include" />
+              <e p="ListServerClientApi.cs" t="Include" />
+              <e p="ListServerJson.cs" t="Include" />
+              <e p="ListServerServerApi.cs" t="Include" />
+            </e>
+            <e p="Mirror.Cloud.asmdef" t="Include" />
+            <e p="version.txt" t="Include" />
+          </e>
+          <e p="CompilerSymbols" t="Include">
+            <e p="Mirror.CompilerSymbols.asmdef" t="Include" />
+            <e p="PreprocessorDefine.cs" t="Include" />
+          </e>
+          <e p="Components" t="Include">
+            <e p="Discovery" t="Include">
+              <e p="NetworkDiscovery.cs" t="Include" />
+              <e p="NetworkDiscoveryBase.cs" t="Include" />
+              <e p="NetworkDiscoveryHUD.cs" t="Include" />
+              <e p="ServerRequest.cs" t="Include" />
+              <e p="ServerResponse.cs" t="Include" />
+            </e>
+            <e p="Experimental" t="Include">
+              <e p="NetworkLerpRigidbody.cs" t="Include" />
+              <e p="NetworkRigidbody.cs" t="Include" />
+              <e p="NetworkRigidbody2D.cs" t="Include" />
+              <e p="NetworkTransform.cs" t="Include" />
+              <e p="NetworkTransformBase.cs" t="Include" />
+              <e p="NetworkTransformChild.cs" t="Include" />
+            </e>
+            <e p="Mirror.Components.asmdef" t="Include" />
+            <e p="NetworkAnimator.cs" t="Include" />
+            <e p="NetworkLobbyManager.cs" t="Include" />
+            <e p="NetworkLobbyPlayer.cs" t="Include" />
+            <e p="NetworkMatchChecker.cs" t="Include" />
+            <e p="NetworkPingDisplay.cs" t="Include" />
+            <e p="NetworkProximityChecker.cs" t="Include" />
+            <e p="NetworkRoomManager.cs" t="Include" />
+            <e p="NetworkRoomPlayer.cs" t="Include" />
+            <e p="NetworkSceneChecker.cs" t="Include" />
+            <e p="NetworkTransform.cs" t="Include" />
+            <e p="NetworkTransformBase.cs" t="Include" />
+            <e p="NetworkTransformChild.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="EnterPlayModeSettingsCheck.cs" t="Include" />
+            <e p="InspectorHelper.cs" t="Include" />
+            <e p="Logging" t="Include">
+              <e p="LogLevelsGUI.cs" t="Include" />
+              <e p="LogLevelWindow.cs" t="Include" />
+              <e p="LogSettingsEditor.cs" t="Include" />
+              <e p="NetworkLogSettingsEditor.cs" t="Include" />
+            </e>
+            <e p="LogLevelWindow.cs" t="Include" />
+            <e p="Mirror.Editor.asmdef" t="Include" />
+            <e p="NetworkBehaviourInspector.cs" t="Include" />
+            <e p="NetworkInformationPreview.cs" t="Include" />
+            <e p="NetworkManagerEditor.cs" t="Include" />
+            <e p="NetworkScenePostProcess.cs" t="Include" />
+            <e p="SceneDrawer.cs" t="Include" />
+            <e p="ScriptableObjectUtility.cs" t="Include" />
+            <e p="SyncVarAttributeDrawer.cs" t="Include" />
+            <e p="Weaver" t="Include">
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="CompilationFinishedHook.cs" t="Include" />
+              <e p="Extensions.cs" t="Include" />
+              <e p="Helpers.cs" t="Include" />
+              <e p="Log.cs" t="Include" />
+              <e p="Mirror.Weaver.asmdef" t="Include" />
+              <e p="Processors" t="Include">
+                <e p="CommandProcessor.cs" t="Include" />
+                <e p="GenericArgumentResolver.cs" t="Include" />
+                <e p="MessageClassProcessor.cs" t="Include" />
+                <e p="MethodProcessor.cs" t="Include" />
+                <e p="MonoBehaviourProcessor.cs" t="Include" />
+                <e p="NetworkBehaviourProcessor.cs" t="Include" />
+                <e p="PropertySiteProcessor.cs" t="Include" />
+                <e p="ReaderWriterProcessor.cs" t="Include" />
+                <e p="RpcProcessor.cs" t="Include" />
+                <e p="ServerClientAttributeProcessor.cs" t="Include" />
+                <e p="SyncDictionaryProcessor.cs" t="Include" />
+                <e p="SyncEventProcessor.cs" t="Include" />
+                <e p="SyncListProcessor.cs" t="Include" />
+                <e p="SyncObjectInitializer.cs" t="Include" />
+                <e p="SyncObjectProcessor.cs" t="Include" />
+                <e p="SyncVarProcessor.cs" t="Include" />
+                <e p="TargetRpcProcessor.cs" t="Include" />
+              </e>
+              <e p="Program.cs" t="Include" />
+              <e p="Readers.cs" t="Include" />
+              <e p="Resolvers.cs" t="Include" />
+              <e p="TypeReferenceComparer.cs" t="Include" />
+              <e p="Weaver.cs" t="Include" />
+              <e p="WeaverExceptions.cs" t="Include" />
+              <e p="WeaverTypes.cs" t="Include" />
+              <e p="Writers.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Examples" t="Include">
+            <e p="AdditiveScenes" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="AdditiveNetworkManager.cs" t="Include" />
+                <e p="PlayerController.cs" t="Include" />
+                <e p="RandomColor.cs" t="Include" />
+                <e p="ShootingTankBehaviour.cs" t="Include" />
+                <e p="ZoneHandler.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Basic" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="BasicNetManager.cs" t="Include" />
+                <e p="Player.cs" t="Include" />
+                <e p="PlayerUI.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Benchmark" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="BenchmarkNetworkManager.cs" t="Include" />
+                <e p="MonsterMovement.cs" t="Include" />
+                <e p="PlayerMovement.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Chat" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="ChatNetworkManager.cs" t="Include" />
+                <e p="ChatWindow.cs" t="Include" />
+                <e p="Player.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Cloud" t="Include">
+              <e p="GUI" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="ApiUpdater.cs" t="Include" />
+                  <e p="InstantiateNetworkManager.cs" t="Include" />
+                  <e p="Mirror.Examples.Cloud.GUI.asmdef" t="Include" />
+                  <e p="NetworkManagerListServer.cs" t="Include" />
+                  <e p="QuickListServerDebug.cs" t="Include" />
+                  <e p="QuitButtonHUD.cs" t="Include" />
+                  <e p="ServerListManager.cs" t="Include" />
+                  <e p="ServerListUI.cs" t="Include" />
+                  <e p="ServerListUIItem.cs" t="Include" />
+                </e>
+              </e>
+              <e p="PongWithListServer" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Ball.cs" t="Include" />
+                  <e p="BallManager.cs" t="Include" />
+                  <e p="Mirror.Examples.Cloud.Pong.asmdef" t="Include" />
+                  <e p="NetworkManagerListServerPong.cs" t="Include" />
+                  <e p="Player.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Mirror.Examples.asmdef" t="Include" />
+            <e p="MultipleAdditiveScenes" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MultiSceneNetManager.cs" t="Include" />
+                <e p="PhysicsCollision.cs" t="Include" />
+                <e p="PhysicsSimulator.cs" t="Include" />
+                <e p="PlayerController.cs" t="Include" />
+                <e p="PlayerScore.cs" t="Include" />
+                <e p="RandomColor.cs" t="Include" />
+                <e p="Reward.cs" t="Include" />
+                <e p="Spawner.cs" t="Include" />
+              </e>
+            </e>
+            <e p="MultipleMatches" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="CanvasController.cs" t="Include" />
+                <e p="CellGUI.cs" t="Include" />
+                <e p="MatchController.cs" t="Include" />
+                <e p="MatchGUI.cs" t="Include" />
+                <e p="MatchMessages.cs" t="Include" />
+                <e p="MatchNetworkManager.cs" t="Include" />
+                <e p="PlayerGUI.cs" t="Include" />
+                <e p="RoomGUI.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Pong" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Ball.cs" t="Include" />
+                <e p="NetworkManagerPong.cs" t="Include" />
+                <e p="Player.cs" t="Include" />
+              </e>
+            </e>
+            <e p="RigidbodyPhysics" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="AddForce.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Room" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="NetworkRoomManagerExt.cs" t="Include" />
+                <e p="NetworkRoomPlayerExt.cs" t="Include" />
+                <e p="PlayerController.cs" t="Include" />
+                <e p="PlayerScore.cs" t="Include" />
+                <e p="RandomColor.cs" t="Include" />
+                <e p="Reward.cs" t="Include" />
+                <e p="Spawner.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Tanks" t="Include">
+              <e p="Models" t="Include">
+                <e p="(Public Domain) Recon_Tank" t="Include">
+                  <e p="Recon_Tank - License.txt" t="Include" />
+                </e>
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Projectile.cs" t="Include" />
+                <e p="Tank.cs" t="Include" />
+              </e>
+              <e p="Textures" t="Include">
+                <e p="(Public Domain) Dirt Hand Painted Texture" t="Include">
+                  <e p="Dirt Hand Painted Texture - License.txt" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Notice.txt" t="Include" />
+          <e p="Plugins" t="Include">
+            <e p="Mono.Cecil" t="Include">
+              <e p="License.txt" t="Include" />
+            </e>
+          </e>
+          <e p="README.txt" t="Include" />
+          <e p="Runtime" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="ClientScene.cs" t="Include" />
+            <e p="Compression.cs" t="Include" />
+            <e p="CustomAttributes.cs" t="Include" />
+            <e p="DotNetCompatibility.cs" t="Include" />
+            <e p="ExponentialMovingAverage.cs" t="Include" />
+            <e p="FloatBytePacker.cs" t="Include" />
+            <e p="LocalConnections.cs" t="Include" />
+            <e p="LogFactory.cs" t="Include" />
+            <e p="LogFilter.cs" t="Include" />
+            <e p="Logging" t="Include">
+              <e p="ConsoleColorLogHandler.cs" t="Include" />
+              <e p="EditorLogSettingsLoader.cs" t="Include" />
+              <e p="LogFactory.cs" t="Include" />
+              <e p="LogSettings.cs" t="Include" />
+              <e p="NetworkHeadlessLogger.cs" t="Include" />
+              <e p="NetworkLogSettings.cs" t="Include" />
+            </e>
+            <e p="MessagePacker.cs" t="Include" />
+            <e p="Messages.cs" t="Include" />
+            <e p="Mirror.asmdef" t="Include" />
+            <e p="NetworkAuthenticator.cs" t="Include" />
+            <e p="NetworkBehaviour.cs" t="Include" />
+            <e p="NetworkClient.cs" t="Include" />
+            <e p="NetworkConnection.cs" t="Include" />
+            <e p="NetworkConnectionToClient.cs" t="Include" />
+            <e p="NetworkConnectionToServer.cs" t="Include" />
+            <e p="NetworkDiagnostics.cs" t="Include" />
+            <e p="NetworkIdentity.cs" t="Include" />
+            <e p="NetworkManager.cs" t="Include" />
+            <e p="NetworkManagerHUD.cs" t="Include" />
+            <e p="NetworkMessage.cs" t="Include" />
+            <e p="NetworkReader.cs" t="Include" />
+            <e p="NetworkReaderPool.cs" t="Include" />
+            <e p="NetworkServer.cs" t="Include" />
+            <e p="NetworkStartPosition.cs" t="Include" />
+            <e p="NetworkTime.cs" t="Include" />
+            <e p="NetworkVisibility.cs" t="Include" />
+            <e p="NetworkWriter.cs" t="Include" />
+            <e p="NetworkWriterPool.cs" t="Include" />
+            <e p="Pool.cs" t="Include" />
+            <e p="RemoteCallHelper.cs" t="Include" />
+            <e p="StringHash.cs" t="Include" />
+            <e p="SyncDictionary.cs" t="Include" />
+            <e p="SyncList.cs" t="Include" />
+            <e p="SyncObject.cs" t="Include" />
+            <e p="SyncSet.cs" t="Include" />
+            <e p="Transport" t="Include">
+              <e p="FallbackTransport.cs" t="Include" />
+              <e p="KCP" t="Include">
+                <e p="kcp2k" t="Include">
+                  <e p="highlevel" t="Include">
+                    <e p="KcpClient.cs" t="Include" />
+                    <e p="KcpClientConnection.cs" t="Include" />
+                    <e p="KcpConnection.cs" t="Include" />
+                    <e p="KcpServer.cs" t="Include" />
+                    <e p="KcpServerConnection.cs" t="Include" />
+                    <e p="Log.cs" t="Include" />
+                    <e p="Utils.cs" t="Include" />
+                  </e>
+                  <e p="KCP" t="Include">
+                    <e p="AssemblyInfo.cs" t="Include" />
+                    <e p="Kcp.cs" t="Include" />
+                    <e p="Segment.cs" t="Include" />
+                    <e p="Utils.cs" t="Include" />
+                  </e>
+                  <e p="kcp2k.asmdef" t="Include" />
+                </e>
+                <e p="MirrorTransport" t="Include">
+                  <e p="KcpTransport.cs" t="Include" />
+                </e>
+              </e>
+              <e p="MiddlewareTransport.cs" t="Include" />
+              <e p="MultiplexTransport.cs" t="Include" />
+              <e p="SimpleWebTransport" t="Include">
+                <e p="AssemblyInfo.cs" t="Include" />
+                <e p="Client" t="Include">
+                  <e p="SimpleWebClient.cs" t="Include" />
+                  <e p="StandAlone" t="Include">
+                    <e p="ClientHandshake.cs" t="Include" />
+                    <e p="ClientSslHelper.cs" t="Include" />
+                    <e p="WebSocketClientStandAlone.cs" t="Include" />
+                  </e>
+                  <e p="Webgl" t="Include">
+                    <e p="SimpleWebJSLib.cs" t="Include" />
+                    <e p="WebSocketClientWebGl.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Common" t="Include">
+                  <e p="BufferPool.cs" t="Include" />
+                  <e p="Connection.cs" t="Include" />
+                  <e p="Constants.cs" t="Include" />
+                  <e p="EventType.cs" t="Include" />
+                  <e p="Log.cs" t="Include" />
+                  <e p="Message.cs" t="Include" />
+                  <e p="MessageProcessor.cs" t="Include" />
+                  <e p="ReadHelper.cs" t="Include" />
+                  <e p="ReceiveLoop.cs" t="Include" />
+                  <e p="SendLoop.cs" t="Include" />
+                  <e p="TcpConfig.cs" t="Include" />
+                  <e p="Utils.cs" t="Include" />
+                </e>
+                <e p="README.txt" t="Include" />
+                <e p="Server" t="Include">
+                  <e p="ServerHandshake.cs" t="Include" />
+                  <e p="ServerSslHelper.cs" t="Include" />
+                  <e p="SimpleWebServer.cs" t="Include" />
+                  <e p="WebSocketServer.cs" t="Include" />
+                </e>
+                <e p="SimpleWebTransport.asmdef" t="Include" />
+                <e p="SimpleWebTransport.cs" t="Include" />
+                <e p="SslConfigLoader.cs" t="Include" />
+              </e>
+              <e p="Telepathy" t="Include">
+                <e p="Client.cs" t="Include" />
+                <e p="Common.cs" t="Include" />
+                <e p="EventType.cs" t="Include" />
+                <e p="Logger.cs" t="Include" />
+                <e p="Message.cs" t="Include" />
+                <e p="NetworkStreamExtensions.cs" t="Include" />
+                <e p="SafeQueue.cs" t="Include" />
+                <e p="Server.cs" t="Include" />
+                <e p="Telepathy.asmdef" t="Include" />
+                <e p="ThreadExtensions.cs" t="Include" />
+                <e p="Utils.cs" t="Include" />
+              </e>
+              <e p="TelepathyTransport.cs" t="Include" />
+              <e p="Transport.cs" t="Include" />
+            </e>
+            <e p="UNetwork.cs" t="Include" />
+          </e>
+          <e p="version.txt" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="AppEntry.cs" t="Include" />
+        </e>
+        <e p="Smooth Sync" t="Include">
+          <e p="Common" t="Include">
+            <e p="Required Internal Use Scripts" t="Include">
+              <e p="Half.cs" t="Include" />
+              <e p="HalfHelper.cs" t="Include" />
+              <e p="MsgType.cs" t="Include" />
+              <e p="SyncMode.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Mirror" t="Include">
+            <e p="Server Authoritative" t="Include">
+              <e p="ServerAuthorityExamplePlayerController.cs" t="Include" />
+            </e>
+            <e p="Smooth Sync Asset" t="Include">
+              <e p="Editor" t="Include">
+                <e p="SmoothSyncMirrorEditor.cs" t="Include" />
+              </e>
+              <e p="SmoothSyncMirror.cs" t="Include" />
+              <e p="StateMirror.cs" t="Include" />
+            </e>
+            <e p="Smooth Sync Example Scene" t="Include">
+              <e p="SmoothSyncMirrorExamplePlayerController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="README.txt" t="Include" />
+        </e>
+        <e p="SteamVR" t="Include">
+          <e p="Editor" t="Include">
+            <e p="SteamVR_AutoEnableVR.cs" t="Include" />
+            <e p="SteamVR_Editor.asmdef" t="Include" />
+            <e p="SteamVR_Editor.cs" t="Include" />
+            <e p="SteamVR_Preferences.cs" t="Include" />
+            <e p="SteamVR_RenderModelEditor.cs" t="Include" />
+            <e p="SteamVR_SkyboxEditor.cs" t="Include" />
+            <e p="SteamVR_UnitySettingsWindow.cs" t="Include" />
+            <e p="SteamVR_Update.cs" t="Include" />
+            <e p="SteamVR_UpdateModeEditor.cs" t="Include" />
+          </e>
+          <e p="Extras" t="Include">
+            <e p="SteamVR_CameraHelper.cs" t="Include" />
+            <e p="SteamVR_ForceSteamVRMode.cs" t="Include" />
+            <e p="SteamVR_GazeTracker.cs" t="Include" />
+            <e p="SteamVR_LaserPointer.cs" t="Include" />
+            <e p="SteamVR_TestThrow.cs" t="Include" />
+            <e p="SteamVR_TestTrackedCamera.cs" t="Include" />
+          </e>
+          <e p="Input" t="Include">
+            <e p="BehaviourUnityEvents" t="Include">
+              <e p="SteamVR_Behaviour_BooleanEvent.cs" t="Include" />
+              <e p="SteamVR_Behaviour_Pose_ConnectedChangedEvent.cs" t="Include" />
+              <e p="SteamVR_Behaviour_Pose_DeviceIndexChangedEvent.cs" t="Include" />
+              <e p="SteamVR_Behaviour_Pose_TrackingChangedEvent.cs" t="Include" />
+              <e p="SteamVR_Behaviour_PoseEvent.cs" t="Include" />
+              <e p="SteamVR_Behaviour_SingleEvent.cs" t="Include" />
+              <e p="SteamVR_Behaviour_Skeleton_ConnectedChangedEvent.cs" t="Include" />
+              <e p="SteamVR_Behaviour_Skeleton_TrackingChangedEvent.cs" t="Include" />
+              <e p="SteamVR_Behaviour_SkeletonEvent.cs" t="Include" />
+              <e p="SteamVR_Behaviour_Vector2Event.cs" t="Include" />
+              <e p="SteamVR_Behaviour_Vector3Event.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="SteamVR_CopyExampleInputFiles.cs" t="Include" />
+              <e p="SteamVR_Input_Action_Boolean_PropertyEditor.cs" t="Include" />
+              <e p="SteamVR_Input_Action_GenericPropertyEditor.cs" t="Include" />
+              <e p="SteamVR_Input_Action_In_PropertyEditor.cs" t="Include" />
+              <e p="SteamVR_Input_Action_Out_PropertyEditor.cs" t="Include" />
+              <e p="SteamVR_Input_Action_Pose_PropertyEditor.cs" t="Include" />
+              <e p="SteamVR_Input_Action_PropertyEditor.cs" t="Include" />
+              <e p="SteamVR_Input_Action_Single_PropertyEditor.cs" t="Include" />
+              <e p="SteamVR_Input_Action_Skeleton_PropertyEditor.cs" t="Include" />
+              <e p="SteamVR_Input_Action_Vector2_PropertyEditor.cs" t="Include" />
+              <e p="SteamVR_Input_Action_Vector3_PropertyEditor.cs" t="Include" />
+              <e p="SteamVR_Input_Action_Vibration_PropertyEditor.cs" t="Include" />
+              <e p="SteamVR_Input_ActionManifest_Manager.cs" t="Include" />
+              <e p="SteamVR_Input_ActionSetPropertyEditor.cs" t="Include" />
+              <e p="SteamVR_Input_Editor.asmdef" t="Include" />
+              <e p="SteamVR_Input_EditorWindow.cs" t="Include" />
+              <e p="SteamVR_Input_Generator.cs" t="Include" />
+              <e p="SteamVR_Input_LiveWindow.cs" t="Include" />
+              <e p="SteamVR_Input_PostProcessBuild.cs" t="Include" />
+              <e p="SteamVR_Skeleton_PoserEditor.cs" t="Include" />
+            </e>
+            <e p="SteamVR_Action.cs" t="Include" />
+            <e p="SteamVR_Action_Boolean.cs" t="Include" />
+            <e p="SteamVR_Action_In.cs" t="Include" />
+            <e p="SteamVR_Action_Out.cs" t="Include" />
+            <e p="SteamVR_Action_Pose.cs" t="Include" />
+            <e p="SteamVR_Action_Single.cs" t="Include" />
+            <e p="SteamVR_Action_Skeleton.cs" t="Include" />
+            <e p="SteamVR_Action_Vector2.cs" t="Include" />
+            <e p="SteamVR_Action_Vector3.cs" t="Include" />
+            <e p="SteamVR_Action_Vibration.cs" t="Include" />
+            <e p="SteamVR_ActionDirections.cs" t="Include" />
+            <e p="SteamVR_ActionSet.cs" t="Include" />
+            <e p="SteamVR_ActionSet_Manager.cs" t="Include" />
+            <e p="SteamVR_ActivateActionSetOnLoad.cs" t="Include" />
+            <e p="SteamVR_Behaviour_Boolean.cs" t="Include" />
+            <e p="SteamVR_Behaviour_Pose.cs" t="Include" />
+            <e p="SteamVR_Behaviour_Single.cs" t="Include" />
+            <e p="SteamVR_Behaviour_Skeleton.cs" t="Include" />
+            <e p="SteamVR_Behaviour_SkeletonCustom.cs" t="Include" />
+            <e p="SteamVR_Behaviour_Vector2.cs" t="Include" />
+            <e p="SteamVR_Behaviour_Vector3.cs" t="Include" />
+            <e p="SteamVR_DefaultAction.cs" t="Include" />
+            <e p="SteamVR_DefaultActionSet.cs" t="Include" />
+            <e p="SteamVR_Input.cs" t="Include" />
+            <e p="SteamVR_Input_ActionFile.cs" t="Include" />
+            <e p="SteamVR_Input_ActionScopes.cs" t="Include" />
+            <e p="SteamVR_Input_ActionSetUsages.cs" t="Include" />
+            <e p="SteamVR_Input_BindingFile.cs" t="Include" />
+            <e p="SteamVR_Input_Generator_Names.cs" t="Include" />
+            <e p="SteamVR_Input_References.cs" t="Include" />
+            <e p="SteamVR_Input_Source.cs" t="Include" />
+            <e p="SteamVR_Input_Sources.cs" t="Include" />
+            <e p="SteamVR_Skeleton_Pose.cs" t="Include" />
+            <e p="SteamVR_Skeleton_Poser.cs" t="Include" />
+            <e p="SteamVR_UpdateModes.cs" t="Include" />
+          </e>
+          <e p="InteractionSystem" t="Include">
+            <e p="Core" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="BodyCollider.cs" t="Include" />
+                <e p="CircularDrive.cs" t="Include" />
+                <e p="ComplexThrowable.cs" t="Include" />
+                <e p="ControllerHoverHighlight.cs" t="Include" />
+                <e p="CustomEvents.cs" t="Include" />
+                <e p="DebugUI.cs" t="Include" />
+                <e p="DestroyOnDetachedFromHand.cs" t="Include" />
+                <e p="DestroyOnParticleSystemDeath.cs" t="Include" />
+                <e p="DestroyOnTriggerEnter.cs" t="Include" />
+                <e p="DistanceHaptics.cs" t="Include" />
+                <e p="DontDestroyOnLoad.cs" t="Include" />
+                <e p="EnumFlags.cs" t="Include" />
+                <e p="Equippable.cs" t="Include" />
+                <e p="FallbackCameraController.cs" t="Include" />
+                <e p="GrabTypes.cs" t="Include" />
+                <e p="Hand.cs" t="Include" />
+                <e p="HandCollider.cs" t="Include" />
+                <e p="HandPhysics.cs" t="Include" />
+                <e p="HapticRack.cs" t="Include" />
+                <e p="HideOnHandFocusLost.cs" t="Include" />
+                <e p="HoverButton.cs" t="Include" />
+                <e p="IgnoreHovering.cs" t="Include" />
+                <e p="InputModule.cs" t="Include" />
+                <e p="Interactable.cs" t="Include" />
+                <e p="InteractableDebug.cs" t="Include" />
+                <e p="InteractableHoverEvents.cs" t="Include" />
+                <e p="ItemPackage.cs" t="Include" />
+                <e p="ItemPackageReference.cs" t="Include" />
+                <e p="ItemPackageSpawner.cs" t="Include" />
+                <e p="LinearAnimation.cs" t="Include" />
+                <e p="LinearAnimator.cs" t="Include" />
+                <e p="LinearAudioPitch.cs" t="Include" />
+                <e p="LinearBlendshape.cs" t="Include" />
+                <e p="LinearDisplacement.cs" t="Include" />
+                <e p="LinearDrive.cs" t="Include" />
+                <e p="LinearMapping.cs" t="Include" />
+                <e p="ModalThrowable.cs" t="Include" />
+                <e p="Player.cs" t="Include" />
+                <e p="PlaySound.cs" t="Include" />
+                <e p="RenderModel.cs" t="Include" />
+                <e p="SeeThru.cs" t="Include" />
+                <e p="SleepOnAwake.cs" t="Include" />
+                <e p="SoundDeparent.cs" t="Include" />
+                <e p="SoundPlayOneshot.cs" t="Include" />
+                <e p="SpawnAndAttachAfterControllerIsTracking.cs" t="Include" />
+                <e p="SpawnAndAttachToHand.cs" t="Include" />
+                <e p="Throwable.cs" t="Include" />
+                <e p="UIElement.cs" t="Include" />
+                <e p="Unparent.cs" t="Include" />
+                <e p="Util.cs" t="Include" />
+                <e p="VelocityEstimator.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="SeeThru.shader" t="Include" />
+                <e p="Silhouette.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Hints" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="ControllerButtonHints.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="ControllerButtonHints.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Longbow" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="ArcheryTarget.cs" t="Include" />
+                <e p="Arrow.cs" t="Include" />
+                <e p="ArrowHand.cs" t="Include" />
+                <e p="ArrowheadRotation.cs" t="Include" />
+                <e p="Balloon.cs" t="Include" />
+                <e p="BalloonColliders.cs" t="Include" />
+                <e p="BalloonHapticBump.cs" t="Include" />
+                <e p="BalloonSpawner.cs" t="Include" />
+                <e p="ExplosionWobble.cs" t="Include" />
+                <e p="FireSource.cs" t="Include" />
+                <e p="Longbow.cs" t="Include" />
+                <e p="SoundBowClick.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Samples" t="Include">
+              <e p="BuggyBuddy" t="Include">
+                <e p="Audio" t="Include">
+                  <e p="AmbientSound.cs" t="Include" />
+                </e>
+                <e p="BuggyBuddy.cs" t="Include" />
+                <e p="BuggyController.cs" t="Include" />
+                <e p="LockToPoint.cs" t="Include" />
+                <e p="Materials" t="Include">
+                  <e p="LightCone.shader" t="Include" />
+                </e>
+                <e p="trackCam.cs" t="Include" />
+                <e p="trackObj.cs" t="Include" />
+                <e p="WheelDust.cs" t="Include" />
+              </e>
+              <e p="Grenade" t="Include">
+                <e p="Grenade.cs" t="Include" />
+              </e>
+              <e p="JoeJeff" t="Include">
+                <e p="JoeJeff.cs" t="Include" />
+                <e p="JoeJeffController.cs" t="Include" />
+                <e p="JoeJeffGestures.cs" t="Include" />
+                <e p="ProceduralHats.cs" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="ButtonEffect.cs" t="Include" />
+                <e p="ButtonExample.cs" t="Include" />
+                <e p="ControllerHintsExample.cs" t="Include" />
+                <e p="CustomSkeletonHelper.cs" t="Include" />
+                <e p="FloppyHand.cs" t="Include" />
+                <e p="FlowerPlanted.cs" t="Include" />
+                <e p="InteractableExample.cs" t="Include" />
+                <e p="Planting.cs" t="Include" />
+                <e p="RenderModelChangerUI.cs" t="Include" />
+                <e p="SkeletonUIOptions.cs" t="Include" />
+                <e p="TargetHitEffect.cs" t="Include" />
+                <e p="TargetMeasurement.cs" t="Include" />
+                <e p="URPMaterialSwitcher.cs" t="Include" />
+              </e>
+              <e p="Squishy" t="Include">
+                <e p="SquishyDeform.shader" t="Include" />
+                <e p="SquishyToy.cs" t="Include" />
+              </e>
+            </e>
+            <e p="SnapTurn" t="Include">
+              <e p="SnapTurn.cs" t="Include" />
+            </e>
+            <e p="Teleport" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="AllowTeleportWhileAttachedToHand.cs" t="Include" />
+                <e p="ChaperoneInfo.cs" t="Include" />
+                <e p="IgnoreTeleportTrace.cs" t="Include" />
+                <e p="Teleport.cs" t="Include" />
+                <e p="TeleportArc.cs" t="Include" />
+                <e p="TeleportArea.cs" t="Include" />
+                <e p="TeleportMarkerBase.cs" t="Include" />
+                <e p="TeleportPoint.cs" t="Include" />
+                <e p="TeleportURPHelper.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="HighlighGlobal.shader" t="Include" />
+                <e p="Highlight.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="link.xml" t="Include" />
+          <e p="Plugins" t="Include">
+            <e p="openvr_api.cs" t="Include" />
+          </e>
+          <e p="README.txt" t="Include" />
+          <e p="Resources" t="Include">
+            <e p="SteamVR_AlphaOut.shader" t="Include" />
+            <e p="SteamVR_ClearAll.shader" t="Include" />
+            <e p="SteamVR_ColorOut.shader" t="Include" />
+            <e p="SteamVR_Fade.shader" t="Include" />
+            <e p="SteamVR_SphericalProjection.shader" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="SteamVR.cs" t="Include" />
+            <e p="SteamVR_Behaviour.cs" t="Include" />
+            <e p="SteamVR_Camera.cs" t="Include" />
+            <e p="SteamVR_CameraFlip.cs" t="Include" />
+            <e p="SteamVR_CameraMask.cs" t="Include" />
+            <e p="SteamVR_Ears.cs" t="Include" />
+            <e p="SteamVR_EnumEqualityComparer.cs" t="Include" />
+            <e p="SteamVR_Events.cs" t="Include" />
+            <e p="SteamVR_ExternalCamera.cs" t="Include" />
+            <e p="SteamVR_ExternalCamera_LegacyManager.cs" t="Include" />
+            <e p="SteamVR_Fade.cs" t="Include" />
+            <e p="SteamVR_Frustum.cs" t="Include" />
+            <e p="SteamVR_IK.cs" t="Include" />
+            <e p="SteamVR_LoadLevel.cs" t="Include" />
+            <e p="SteamVR_Menu.cs" t="Include" />
+            <e p="SteamVR_Overlay.cs" t="Include" />
+            <e p="SteamVR_PlayArea.cs" t="Include" />
+            <e p="SteamVR_Render.cs" t="Include" />
+            <e p="SteamVR_RenderModel.cs" t="Include" />
+            <e p="SteamVR_RingBuffer.cs" t="Include" />
+            <e p="SteamVR_Settings.cs" t="Include" />
+            <e p="SteamVR_Skybox.cs" t="Include" />
+            <e p="SteamVR_SphericalProjection.cs" t="Include" />
+            <e p="SteamVR_TrackedCamera.cs" t="Include" />
+            <e p="SteamVR_TrackedObject.cs" t="Include" />
+            <e p="SteamVR_TrackingReferenceManager.cs" t="Include" />
+            <e p="SteamVR_Utils.cs" t="Include" />
+          </e>
+          <e p="SteamVR.asmdef" t="Include" />
+          <e p="WindowsHelper" t="Include">
+            <e p="SteamVR_Windows_Editor_Helper.cs" t="Include" />
+            <e p="SteamVR_Windows_EditorHelper.asmdef" t="Include" />
+          </e>
+        </e>
+        <e p="SteamVR_Input" t="Include">
+          <e p="ActionSetClasses" t="Include">
+            <e p="SteamVR_Input_ActionSet_buggy.cs" t="Include" />
+            <e p="SteamVR_Input_ActionSet_default.cs" t="Include" />
+            <e p="SteamVR_Input_ActionSet_mixedreality.cs" t="Include" />
+            <e p="SteamVR_Input_ActionSet_platformer.cs" t="Include" />
+          </e>
+          <e p="SteamVR_Actions.asmdef" t="Include" />
+          <e p="SteamVR_Input_Actions.cs" t="Include" />
+          <e p="SteamVR_Input_ActionSets.cs" t="Include" />
+          <e p="SteamVR_Input_Initialization.cs" t="Include" />
+        </e>
+      </e>
+      <e p="HiddenObjectVR.sln" t="IncludeFlat" />
+      <e p="kcp2k.csproj" t="IncludeRecursive" />
+      <e p="Mirror.Authenticators.csproj" t="IncludeRecursive" />
+      <e p="Mirror.Cloud.csproj" t="IncludeRecursive" />
+      <e p="Mirror.CompilerSymbols.csproj" t="IncludeRecursive" />
+      <e p="Mirror.Components.csproj" t="IncludeRecursive" />
+      <e p="Mirror.csproj" t="IncludeRecursive" />
+      <e p="Mirror.Editor.csproj" t="IncludeRecursive" />
+      <e p="Mirror.Examples.Cloud.GUI.csproj" t="IncludeRecursive" />
+      <e p="Mirror.Examples.Cloud.Pong.csproj" t="IncludeRecursive" />
+      <e p="Mirror.Examples.csproj" t="IncludeRecursive" />
+      <e p="Mirror.Weaver.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SimpleWebTransport.csproj" t="IncludeRecursive" />
+      <e p="SteamVR.csproj" t="IncludeRecursive" />
+      <e p="SteamVR_Actions.csproj" t="IncludeRecursive" />
+      <e p="SteamVR_Editor.csproj" t="IncludeRecursive" />
+      <e p="SteamVR_Input_Editor.csproj" t="IncludeRecursive" />
+      <e p="SteamVR_Windows_EditorHelper.csproj" t="IncludeRecursive" />
+      <e p="Telepathy.csproj" t="IncludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
