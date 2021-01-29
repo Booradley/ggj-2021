@@ -48,8 +48,6 @@ namespace EmeraldActivities.Network
                 {
                     _handLookup[hand] = hand.currentAttachedObject.GetComponent<Interactable>();
                     CmdPickupItem(networkIdentity);
-                    
-                    Debug.Log($"Giving authority on {_handLookup[hand].name}");
                 }
             }
         }
@@ -69,8 +67,6 @@ namespace EmeraldActivities.Network
                 {
                     _handLookup.Remove(hand);
                     CmdDropItem(networkIdentity);
-                    
-                    Debug.Log($"Removing authority on {interactable.name}");
                 }
             }
         }

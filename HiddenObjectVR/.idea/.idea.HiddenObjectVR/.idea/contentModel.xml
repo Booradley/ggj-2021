@@ -387,6 +387,11 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AppEntry.cs" t="Include" />
+          <e p="HiddenObject" t="Include">
+            <e p="HiddenObject.cs" t="Include" />
+            <e p="HiddenObjectData.cs" t="Include" />
+            <e p="HiddenObjectTrigger.cs" t="Include" />
+          </e>
           <e p="Network" t="Include">
             <e p="NetworkContextToggle.cs" t="Include" />
             <e p="NetworkManager.cs" t="Include" />

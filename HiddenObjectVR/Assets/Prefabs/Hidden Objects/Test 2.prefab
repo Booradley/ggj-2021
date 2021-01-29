@@ -17,8 +17,9 @@ GameObject:
   - component: {fileID: 314832910655153639}
   - component: {fileID: 314832910655153636}
   - component: {fileID: 314832910655153637}
+  - component: {fileID: -1599932269727810906}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Test 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -295,3 +296,18 @@ MonoBehaviour:
   useLocalTransformOnly: 0
   ownerChangeIndicator: 1
   receivedStatesCounter: 0
+--- !u!114 &-1599932269727810906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314832910655153634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b9bbfebe57459d9766f1302144a3bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  _data: {fileID: 11400000, guid: 8740a567f74d15f47be45aedaba13976, type: 2}
