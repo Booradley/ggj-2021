@@ -1,35 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="762b56c0-3674-4eb8-a2dd-c38134c3ba15" name="Default Changelist" comment="" />
+    <list default="true" id="762b56c0-3674-4eb8-a2dd-c38134c3ba15" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/Managed/SteamVR.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/Managed/SteamVR.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/globalgamemanagers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/globalgamemanagers.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/level0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/resources.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/resources.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/resources.assets.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/sharedassets0.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/Hidden Object VR_Data/sharedassets0.assets.resS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AppEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AppEntry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/SnapTurn/SnapTurn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/SnapTurn/SnapTurn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E441E86-84A1-4FE4-B8F8-A926D91AFC3A/92/063fc8e2/VREditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/SnapTurn/SnapTurn.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Input/SteamVR_Action.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Extras/SteamVR_TestTrackedCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Editor/SteamVR_AutoEnableVR.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/Throwable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkManagerHUD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/SnapTurn/SnapTurn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Input/SteamVR_Action.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/SeeThru.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network/NetworkContextToggle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AppEntry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Examples/Chat/Scripts/ChatWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Runtime/ClientScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Examples/Chat/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/RenderModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Input/SteamVR_Behaviour_Pose.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E441E86-84A1-4FE4-B8F8-A926D91AFC3A/92/063fc8e2/VREditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/Hand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Extras/SteamVR_TestTrackedCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Examples/Basic/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Examples/Basic/Scripts/BasicNetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/97/cf1bc19e/Camera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Network/NetworkPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/5b/b1ea1072/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/SteamVR/Editor/SteamVR_AutoEnableVR.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AppEntry.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Network/NetworkManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Network/NetworkAuthorityToggle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Network/NetworkContextToggle.cs" />
+        <option value="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/Hand.cs" />
+        <option value="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/SnapTurn/SnapTurn.cs" />
+        <option value="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/Throwable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Network/NetworkPlayer.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1ndja9B9CSyoXGn4NpvzogOYD51" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -39,10 +97,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20340">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="20340" />
       <method v="2" />
     </configuration>
   </component>
@@ -69,6 +127,8 @@
       <option name="presentableId" value="Default" />
       <updated>1611726934409</updated>
       <workItem from="1611726964279" duration="1953000" />
+      <workItem from="1611807958600" duration="11091000" />
+      <workItem from="1611893074121" duration="7197000" />
     </task>
     <servers />
   </component>
@@ -78,69 +138,73 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="WindowStateProjectService">
-    <state width="1637" height="336" key="GridCell.Tab.0.bottom" timestamp="1611770529586">
+    <state width="1637" height="336" key="GridCell.Tab.0.bottom" timestamp="1611902523149">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.bottom/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529586" />
-    <state width="1637" height="336" key="GridCell.Tab.0.center" timestamp="1611770529586">
+    <state width="1637" height="336" key="GridCell.Tab.0.bottom/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611902523149" />
+    <state width="1637" height="336" key="GridCell.Tab.0.center" timestamp="1611902523148">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.center/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529586" />
-    <state width="1637" height="336" key="GridCell.Tab.0.left" timestamp="1611770529586">
+    <state width="1637" height="336" key="GridCell.Tab.0.center/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611902523148" />
+    <state width="1637" height="336" key="GridCell.Tab.0.left" timestamp="1611902523148">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.left/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529586" />
-    <state width="1637" height="336" key="GridCell.Tab.0.right" timestamp="1611770529586">
+    <state width="1637" height="336" key="GridCell.Tab.0.left/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611902523148" />
+    <state width="1637" height="336" key="GridCell.Tab.0.right" timestamp="1611902523148">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.right/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529586" />
-    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1611770529587">
+    <state width="1637" height="336" key="GridCell.Tab.0.right/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611902523148" />
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1611854924167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.bottom/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529587" />
-    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1611770529587">
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611854924167" />
+    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1611854924167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.center/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529587" />
-    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1611770529586">
+    <state width="1637" height="336" key="GridCell.Tab.1.center/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611854924167" />
+    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1611854924167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.left/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529586" />
-    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1611770529587">
+    <state width="1637" height="336" key="GridCell.Tab.1.left/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611854924167" />
+    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1611854924167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.right/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529587" />
-    <state width="1637" height="336" key="GridCell.Tab.2.bottom" timestamp="1611770529587">
+    <state width="1637" height="336" key="GridCell.Tab.1.right/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611854924167" />
+    <state width="1637" height="336" key="GridCell.Tab.2.bottom" timestamp="1611854924167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.2.bottom/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529587" />
-    <state width="1637" height="336" key="GridCell.Tab.2.center" timestamp="1611770529587">
+    <state width="1637" height="336" key="GridCell.Tab.2.bottom/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611854924167" />
+    <state width="1637" height="336" key="GridCell.Tab.2.center" timestamp="1611854924167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.2.center/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529587" />
-    <state width="1637" height="336" key="GridCell.Tab.2.left" timestamp="1611770529587">
+    <state width="1637" height="336" key="GridCell.Tab.2.center/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611854924167" />
+    <state width="1637" height="336" key="GridCell.Tab.2.left" timestamp="1611854924167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.2.left/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529587" />
-    <state width="1637" height="336" key="GridCell.Tab.2.right" timestamp="1611770529587">
+    <state width="1637" height="336" key="GridCell.Tab.2.left/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611854924167" />
+    <state width="1637" height="336" key="GridCell.Tab.2.right" timestamp="1611854924167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.2.right/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529587" />
-    <state width="1637" height="336" key="GridCell.Tab.3.bottom" timestamp="1611770529587">
+    <state width="1637" height="336" key="GridCell.Tab.2.right/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611854924167" />
+    <state width="1637" height="336" key="GridCell.Tab.3.bottom" timestamp="1611854924167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.3.bottom/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529587" />
-    <state width="1637" height="336" key="GridCell.Tab.3.center" timestamp="1611770529587">
+    <state width="1637" height="336" key="GridCell.Tab.3.bottom/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611854924167" />
+    <state width="1637" height="336" key="GridCell.Tab.3.center" timestamp="1611854924167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.3.center/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529587" />
-    <state width="1637" height="336" key="GridCell.Tab.3.left" timestamp="1611770529587">
+    <state width="1637" height="336" key="GridCell.Tab.3.center/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611854924167" />
+    <state width="1637" height="336" key="GridCell.Tab.3.left" timestamp="1611854924167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.3.left/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529587" />
-    <state width="1637" height="336" key="GridCell.Tab.3.right" timestamp="1611770529587">
+    <state width="1637" height="336" key="GridCell.Tab.3.left/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611854924167" />
+    <state width="1637" height="336" key="GridCell.Tab.3.right" timestamp="1611854924167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.3.right/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611770529587" />
+    <state width="1637" height="336" key="GridCell.Tab.3.right/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611854924167" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1611904654148">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611904654148" />
   </component>
 </project>

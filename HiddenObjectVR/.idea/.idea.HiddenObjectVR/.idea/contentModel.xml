@@ -387,6 +387,11 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AppEntry.cs" t="Include" />
+          <e p="Network" t="Include">
+            <e p="NetworkContextToggle.cs" t="Include" />
+            <e p="NetworkManager.cs" t="Include" />
+            <e p="NetworkPlayer.cs" t="Include" />
+          </e>
         </e>
         <e p="Smooth Sync" t="Include">
           <e p="Common" t="Include">

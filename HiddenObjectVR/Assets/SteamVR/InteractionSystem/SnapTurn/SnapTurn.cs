@@ -56,6 +56,9 @@ namespace Valve.VR.InteractionSystem
         {
             Player player = Player.instance;
 
+            if (player.rig2DFallback.activeInHierarchy)
+                return;
+
             if (canRotate && snapLeftAction != null && snapRightAction != null && snapLeftAction.activeBinding && snapRightAction.activeBinding)
             {
                 //only allow snap turning after a quarter second after the last teleport

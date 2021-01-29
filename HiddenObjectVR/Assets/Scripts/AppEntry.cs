@@ -1,9 +1,12 @@
 using UnityEngine;
 
-public class AppEntry : MonoBehaviour
+namespace EmeraldActivities
 {
-    private void Start()
+    public class AppEntry : MonoBehaviour
     {
+        private void Start()
+        {
         
+        }
     }
 }
