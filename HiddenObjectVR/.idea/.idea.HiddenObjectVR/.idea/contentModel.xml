@@ -389,6 +389,7 @@
           <e p="AppEntry.cs" t="Include" />
           <e p="HiddenObject" t="Include">
             <e p="HiddenObject.cs" t="Include" />
+            <e p="HiddenObjectController.cs" t="Include" />
             <e p="HiddenObjectData.cs" t="Include" />
             <e p="HiddenObjectTrigger.cs" t="Include" />
           </e>

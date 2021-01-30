@@ -6,21 +6,43 @@ namespace EmeraldActivities
 {
     public class HiddenObjectTrigger : NetworkBehaviour
     {
+        public Action<HiddenObject> OnHiddenObjectAttached;
+        
         [SerializeField]
         private HiddenObjectData _targetData;
 
+        [SerializeField]
+        private Transform _attachPoint;
+
+        private HiddenObject _attachedObject;
+
+        public void Reset()
+        {
+            _attachedObject = null;
+        }
+
         private void OnTriggerEnter(Collider other)
         {
+            if (_attachedObject != null)
+                return;
+            
             HiddenObject hiddenObject = other.GetComponentInParent<HiddenObject>();
             if (hiddenObject != null)
             {
                 if (hiddenObject.Data == _targetData)
                 {
-                    Debug.Log("Correct Object");
+                    _attachedObject = hiddenObject;
+                    _attachedObject.HandleAttachedToTarget();
+                    _attachedObject.transform.position = _attachPoint.position;
+                    _attachedObject.transform.rotation = _attachPoint.rotation;
+                    
+                    OnHiddenObjectAttached?.Invoke(_attachedObject);
+                    
+                    // TODO: Sound for placed object
                 }
                 else
                 {
-                    Debug.Log("Wrong Object");
+                    // TODO: Sound for invalid object
                 }
             }
         }

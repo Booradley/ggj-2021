@@ -108,3 +108,4 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   _targetData: {fileID: 0}
+  _attachPoint: {fileID: 6612566227755343431}
