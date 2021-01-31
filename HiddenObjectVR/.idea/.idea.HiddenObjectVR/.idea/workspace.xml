@@ -10,10 +10,12 @@
       <change beforePath="$PROJECT_DIR$/Assets/Data/Object 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Object 5.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Data/Object 6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Object 6.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Data/Object 7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Object 7.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ObjectSlots.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ObjectSlots.obj.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Object.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Object.physicMaterial" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/BrainCoral01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/BrainCoral01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/Coral Plate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/Coral Plate.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hidden Objects.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hidden Objects.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/HiddenObject/HiddenObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HiddenObject/HiddenObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +169,7 @@
       <workItem from="1611807958600" duration="11091000" />
       <workItem from="1611893074121" duration="9808000" />
       <workItem from="1611983573999" duration="9311000" />
-      <workItem from="1612032233900" duration="24979000" />
+      <workItem from="1612032233900" duration="25690000" />
     </task>
     <servers />
   </component>
