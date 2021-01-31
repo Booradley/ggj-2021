@@ -102,7 +102,7 @@ namespace EmeraldActivities.Network
         {
             if (hasAuthority)
             {
-                if (!Player.instance.rig2DFallback.activeInHierarchy)
+                if (Player.instance.gameObject.activeSelf && !Player.instance.rig2DFallback.activeInHierarchy)
                 {
                     _head.transform.position = Player.instance.hmdTransform.position;
                     _head.transform.rotation = Player.instance.hmdTransform.rotation;
@@ -114,10 +114,20 @@ namespace EmeraldActivities.Network
                     _rightHand.transform.rotation = Player.instance.rightHand.transform.rotation;
 
                     _body.transform.position = _head.transform.position + _bodyOffset;
-                    _body.transform.rotation = Quaternion.Slerp(_body.transform.rotation, Quaternion.LookRotation(_head.transform.forward), _bodyRotationSpeed * Time.deltaTime);
-
                     _legs.transform.position = _head.transform.position + _legsOffset;
-                    _legs.transform.rotation = Quaternion.Slerp(_legs.transform.rotation, Quaternion.LookRotation(_head.transform.forward), _legsRotationSpeed * Time.deltaTime);
+
+                    Quaternion bodyRotation = _body.transform.rotation;
+                    bodyRotation = Quaternion.Slerp(bodyRotation, Quaternion.LookRotation(_head.transform.forward, Vector3.up), _bodyRotationSpeed * Time.deltaTime);
+                    bodyRotation.x = 0;
+                    bodyRotation.z = 0;
+                    
+                    Quaternion legsRotation = _legs.transform.rotation;
+                    legsRotation = Quaternion.Slerp(legsRotation, Quaternion.LookRotation(_head.transform.forward, Vector3.up), _legsRotationSpeed * Time.deltaTime);
+                    legsRotation.x = 0;
+                    legsRotation.z = 0;
+
+                    _body.transform.rotation = bodyRotation;
+                    _legs.transform.rotation = legsRotation;
                 }
             }
         }

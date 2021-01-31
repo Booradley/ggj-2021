@@ -38,6 +38,12 @@ namespace EmeraldActivities
         [SerializeField]
         private float _playerAvoidSpeed = 5.0f;
 
+        [SerializeField]
+        private float _fishAnimationSpeedMultiplier = 1.0f;
+
+        [SerializeField]
+        private bool _drawGizmos;
+
         private readonly Dictionary<GameObject, FishData> _fishLookup = new Dictionary<GameObject, FishData>();
         private readonly Dictionary<NetworkConnection, NetworkPlayer> _playerLookup = new Dictionary<NetworkConnection, NetworkPlayer>();
         private Vector3 _goal;
@@ -50,7 +56,7 @@ namespace EmeraldActivities
             {
                 GameObject fish = Instantiate(_fishPrefab, transform.position + (Random.insideUnitSphere * _radius), Quaternion.identity);
                 fish.transform.SetParent(transform);
-                _fishLookup.Add(fish, new FishData(Random.Range(_minSpeed, _maxSpeed)));
+                _fishLookup.Add(fish, new FishData(Random.Range(_minSpeed, _maxSpeed), fish.GetComponentInChildren<Animator>()));
             }
         }
 
@@ -85,6 +91,8 @@ namespace EmeraldActivities
                 AvoidPlayers(fish);
                 
                 fish.transform.Translate(0, 0, Time.deltaTime * fishData.Speed);
+
+                fishData.Animator.speed = fishData.Speed * _fishAnimationSpeedMultiplier;
             }
         }
 
@@ -154,18 +162,6 @@ namespace EmeraldActivities
             }
         }
 
-        private class FishData
-        {
-            public float Speed;
-            public bool IsTurning;
-
-            public FishData(float speed)
-            {
-                Speed = speed;
-                IsTurning = false;
-            }
-        }
-
         public void AddPlayer(NetworkConnection conn, GameObject player)
         {
             NetworkPlayer networkPlayer = player.GetComponentInChildren<NetworkPlayer>();
@@ -182,15 +178,32 @@ namespace EmeraldActivities
 
         private void OnDrawGizmos()
         {
+            if (!_drawGizmos)
+                return;
+            
             Gizmos.DrawSphere(_goal, 0.25f);
             Gizmos.DrawWireSphere(transform.position, _radius);
 
-            foreach (KeyValuePair<GameObject,FishData> kvp in _fishLookup)
+            foreach (KeyValuePair<GameObject, FishData> kvp in _fishLookup)
             {
                 GameObject fish = kvp.Key;
                 FishData fishData = kvp.Value;
                 
                 Gizmos.DrawRay(fish.transform.position, fish.transform.forward);
+            }
+        }
+
+        private class FishData
+        {
+            public float Speed;
+            public Animator Animator;
+            public bool IsTurning;
+
+            public FishData(float speed, Animator animator)
+            {
+                Speed = speed;
+                Animator = animator;
+                IsTurning = false;
             }
         }
     }
