@@ -6,6 +6,7 @@ using Unity.XR.OpenVR;
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Management;
+using Valve.VR;
 using Valve.VR.InteractionSystem;
 using NetworkManager = EmeraldActivities.Network.NetworkManager;
 
@@ -76,11 +77,26 @@ namespace EmeraldActivities
 
         private void HandleAllHiddenObjectsAttached()
         {
-            // TODO: Win presentation
+            StartCoroutine(WinSequence());
+        }
+
+        private IEnumerator WinSequence()
+        {
             _audioSource.PlayOneShot(_winAudio);
+            
+            yield return new WaitForSeconds(_winAudio.length);
+            
+            SteamVR_Fade.Start( Color.clear, 0 );
+            SteamVR_Fade.Start( Color.black, 0.5f );
+            
+            yield return new WaitForSeconds(0.5f);
 
             _hiddenObjectController.Reset();
             _hiddenObjectController.HideObjects();
+            
+            yield return new WaitForSeconds(1.5f);
+            
+            SteamVR_Fade.Start( Color.clear, 0.5f );
         }
     }
 }
