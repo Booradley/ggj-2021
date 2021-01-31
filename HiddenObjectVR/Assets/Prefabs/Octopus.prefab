@@ -360,10 +360,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6647759331438118844, guid: 4a283caeb2c56a248a71f94e0492dec6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fb7fc4ed35f6bc74081b9fabfe5fe2d9, type: 2}
     - target: {fileID: 919132149155446097, guid: 4a283caeb2c56a248a71f94e0492dec6, type: 3}
       propertyPath: m_Name
       value: Octopus
       objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 4a283caeb2c56a248a71f94e0492dec6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52fdf7e27fe89ec408b45e75c00d05bb, type: 2}
+    - target: {fileID: 2582458295456562330, guid: 4a283caeb2c56a248a71f94e0492dec6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fb7fc4ed35f6bc74081b9fabfe5fe2d9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a283caeb2c56a248a71f94e0492dec6, type: 3}
 --- !u!1 &2500706183647599605 stripped
