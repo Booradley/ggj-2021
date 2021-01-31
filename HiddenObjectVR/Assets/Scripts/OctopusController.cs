@@ -29,6 +29,9 @@ namespace EmeraldActivities
         [SerializeField]
         private float _settleSpeedMultiplier;
 
+        [SerializeField]
+        AudioSource _audioSource;
+
         private bool _isAvoiding;
         
         private readonly Dictionary<NetworkConnection, NetworkPlayer> _playerLookup = new Dictionary<NetworkConnection, NetworkPlayer>();
@@ -65,6 +68,7 @@ namespace EmeraldActivities
                     if (Vector3.Distance(player.Head.transform.position, transform.position) <= _avoidDistance)
                     {
                         _animator.SetTrigger(Swim);
+                        _audioSource.Play();
                         _isAvoiding = true;
                         break;
                     }
