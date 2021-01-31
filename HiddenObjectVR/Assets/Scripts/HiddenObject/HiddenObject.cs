@@ -40,7 +40,7 @@ namespace EmeraldActivities
 
         public void Reset()
         {
-            _rigidBody.isKinematic = true;
+            _rigidBody.isKinematic = false;
             _interactable.enabled = true;
         }
 
@@ -54,7 +54,7 @@ namespace EmeraldActivities
             
             // Disable it
             _interactable.enabled = false;
-            _rigidBody.isKinematic = false;
+            _rigidBody.isKinematic = true;
         }
 
         public void PlaySound(AudioClip clip){

@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="762b56c0-3674-4eb8-a2dd-c38134c3ba15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Object 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Object 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Object 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Object 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Object 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Object 3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Object 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Object 4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Object 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Object 5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Object 6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Object 6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Object 7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Object 7.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/ObjectSlots.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/ObjectSlots.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Object.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Object.physicMaterial" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/BrainCoral01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/BrainCoral01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hidden Objects.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hidden Objects.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HiddenObject/HiddenObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HiddenObject/HiddenObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/VR.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +56,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mirror/Examples/Chat/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/RenderModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/VR.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FishController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Input/SteamVR_Action_Pose.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Input/SteamVR_Behaviour_Pose.cs" root0="FORCE_HIGHLIGHTING" />
@@ -103,13 +90,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FishController.cs" />
         <option value="$PROJECT_DIR$/Assets/Materials/InvisiblleShadowCaster.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Effects/AnimatedProjector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObject/HiddenObjectTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Teleport/Scripts/Teleport.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Network/NetworkPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AppEntry.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OctopusController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObject/HiddenObjectData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObject/HiddenObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObject/HiddenObjectTrigger.cs" />
       </list>
     </option>
   </component>
@@ -169,7 +156,7 @@
       <workItem from="1611807958600" duration="11091000" />
       <workItem from="1611893074121" duration="9808000" />
       <workItem from="1611983573999" duration="9311000" />
-      <workItem from="1612032233900" duration="25690000" />
+      <workItem from="1612032233900" duration="26490000" />
     </task>
     <servers />
   </component>
