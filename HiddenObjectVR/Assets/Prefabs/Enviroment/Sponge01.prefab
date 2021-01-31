@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 8365655854000473742}
   - component: {fileID: 415654637395710787}
   - component: {fileID: 6435549838241725976}
+  - component: {fileID: 202557727412390707}
   m_Layer: 0
   m_Name: Sponge
   m_TagString: Untagged
@@ -112,3 +113,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &202557727412390707
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5300568605576630881}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 18.97269
+  m_Height: 104.692055
+  m_Direction: 1
+  m_Center: {x: -0.06599903, y: 42.059284, z: -0.15465355}

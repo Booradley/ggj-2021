@@ -14,7 +14,8 @@ public class AudioStuff : MonoBehaviour
 
     IEnumerator PlayRandomPitchedAudio(){
         while(true){
-            _audioSource.volume = Random.Range(0.3f,0.5f);
+            yield return new WaitForSeconds(Random.Range(5,12));
+            _audioSource.volume = Random.Range(0.1f,0.3f);
             _audioSource.pitch = Random.Range(0.7f,1.4f);
             _audioSource.Play();
             yield return new WaitWhile(()=>_audioSource.isPlaying);

@@ -19,14 +19,28 @@ namespace EmeraldActivities
         [SerializeField]
         private MeshRenderer _renderer;
 
+        [SerializeField]
+        private AudioSource _audioSource;
+
+        [SerializeField]
+        private AudioClip _collectObjSound;
+
+        [SerializeField]
+        private AudioClip _droppedObjSound;
+
         private void Start()
         {
-            _renderer.material.SetColor("_MainColor", _data.Color);
+            _renderer.material.SetColor("_Color", _data.Color);
+            _rigidBody.drag = 2.5f;
+            _rigidBody.angularDrag = 1.0f;
+
+            _interactable.onAttachedToHand += hand => PlayCollectSound(hand);
+            _interactable.onDetachedFromHand += hand => PlayDropSound(hand);
         }
 
         public void Reset()
         {
-            _rigidBody.isKinematic = true;
+            _rigidBody.isKinematic = false;
             _interactable.enabled = true;
         }
 
@@ -40,7 +54,19 @@ namespace EmeraldActivities
             
             // Disable it
             _interactable.enabled = false;
-            _rigidBody.isKinematic = false;
+            _rigidBody.isKinematic = true;
+        }
+
+        public void PlaySound(AudioClip clip){
+            _audioSource.PlayOneShot(clip);
+        }
+
+        private void PlayCollectSound(Hand hand){
+            PlaySound(_collectObjSound);
+        }
+
+        private void PlayDropSound(Hand hand){
+            PlaySound(_droppedObjSound);
         }
     }
 }

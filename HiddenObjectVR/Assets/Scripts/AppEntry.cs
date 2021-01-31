@@ -28,6 +28,11 @@ namespace EmeraldActivities
         [SerializeField]
         private OctopusController[] _octopusControllers;
 
+        [SerializeField]
+        AudioSource _audioSource;
+        [SerializeField]
+        AudioClip _winAudio;
+
         private void Start()
         {
             _networkManager.OnPlayerAdded += HandlePlayerAdded;
@@ -72,7 +77,8 @@ namespace EmeraldActivities
         private void HandleAllHiddenObjectsAttached()
         {
             // TODO: Win presentation
-            
+            _audioSource.PlayOneShot(_winAudio);
+
             _hiddenObjectController.Reset();
             _hiddenObjectController.HideObjects();
         }

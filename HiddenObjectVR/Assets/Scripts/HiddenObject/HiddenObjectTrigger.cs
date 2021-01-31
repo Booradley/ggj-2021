@@ -14,7 +14,15 @@ namespace EmeraldActivities
         [SerializeField]
         private Transform _attachPoint;
 
+        [SerializeField]
+        private GameObject _slotObject;
+
         private HiddenObject _attachedObject;
+
+        private void Start()
+        {
+            _slotObject.GetComponentInChildren<Renderer>().material.SetColor("_Color", _targetData.Color);
+        }
 
         public void Reset()
         {
