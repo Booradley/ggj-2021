@@ -21,7 +21,9 @@ namespace EmeraldActivities
 
         private void Start()
         {
-            _renderer.material.SetColor("_MainColor", _data.Color);
+            _renderer.material.SetColor("_Color", _data.Color);
+            _rigidBody.drag = 2.5f;
+            _rigidBody.angularDrag = 1.0f;
         }
 
         public void Reset()
