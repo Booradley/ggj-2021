@@ -1,11 +1,21 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using Mirror;
+using Unity.XR.OpenVR;
 using UnityEngine;
+using UnityEngine.XR;
+using UnityEngine.XR.Management;
+using Valve.VR.InteractionSystem;
 using NetworkManager = EmeraldActivities.Network.NetworkManager;
 
 namespace EmeraldActivities
 {
     public class AppEntry : NetworkBehaviour
     {
+        [SerializeField]
+        private OpenVRLoader _openVRLoader;
+        
         [SerializeField]
         private NetworkManager _networkManager;
         
@@ -14,12 +24,12 @@ namespace EmeraldActivities
 
         [SerializeField]
         private FishController[] _fishControllers;
-        
+
         private void Start()
         {
             _networkManager.OnPlayerAdded += HandlePlayerAdded;
             _networkManager.OnPlayerRemoved += HandlePlayerRemoved;
-        
+            
             _hiddenObjectController.Initialize();
             _hiddenObjectController.HideObjects();
             _hiddenObjectController.OnAllHiddenObjectsAttached += HandleAllHiddenObjectsAttached;

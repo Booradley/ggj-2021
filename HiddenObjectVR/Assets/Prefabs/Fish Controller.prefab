@@ -50,3 +50,8 @@ MonoBehaviour:
   _maxSpeed: 1
   _rotationSpeed: 4
   _neighborDistance: 2
+  _playerDistance: 0.25
+  _playerAvoidRotationSpeed: 10
+  _playerAvoidSpeed: 5
+  _fishAnimationSpeedMultiplier: 1.5
+  _drawGizmos: 0

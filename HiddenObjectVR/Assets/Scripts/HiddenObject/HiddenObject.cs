@@ -13,8 +13,12 @@ namespace EmeraldActivities
         [SerializeField]
         private Interactable _interactable;
 
+        [SerializeField]
+        private Rigidbody _rigidBody;
+
         public void Reset()
         {
+            _rigidBody.isKinematic = true;
             _interactable.enabled = true;
         }
 
@@ -28,6 +32,7 @@ namespace EmeraldActivities
             
             // Disable it
             _interactable.enabled = false;
+            _rigidBody.isKinematic = false;
         }
     }
 }

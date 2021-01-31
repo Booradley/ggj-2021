@@ -39,9 +39,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7788567985774627680}
-  - component: {fileID: 9122454957092050778}
   - component: {fileID: 350548023162218209}
   - component: {fileID: 7503850043405016642}
+  - component: {fileID: 7117837320791629383}
   m_Layer: 0
   m_Name: Hidden Object Target
   m_TagString: Untagged
@@ -64,19 +64,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &9122454957092050778
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3144095809974366792}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &350548023162218209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,3 +96,16 @@ MonoBehaviour:
   syncInterval: 0.1
   _targetData: {fileID: 0}
   _attachPoint: {fileID: 6612566227755343431}
+--- !u!135 &7117837320791629383
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3144095809974366792}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23
+  m_Center: {x: 0, y: 0, z: 0}

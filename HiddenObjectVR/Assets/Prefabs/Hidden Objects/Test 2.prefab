@@ -312,3 +312,4 @@ MonoBehaviour:
   syncInterval: 0.1
   _data: {fileID: 11400000, guid: 8740a567f74d15f47be45aedaba13976, type: 2}
   _interactable: {fileID: 314832910655153641}
+  _rigidBody: {fileID: 314832910655153638}
