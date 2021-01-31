@@ -292,10 +292,6 @@ PrefabInstance:
       propertyPath: sceneId
       value: 2064753600
       objectReference: {fileID: 0}
-    - target: {fileID: 2600275940023469807, guid: 7839f5d39646f724d9dfeb5a9e89e756, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
     - target: {fileID: 3079313507654222594, guid: 7839f5d39646f724d9dfeb5a9e89e756, type: 3}
       propertyPath: _networkManager
       value: 
@@ -367,14 +363,6 @@ PrefabInstance:
     - target: {fileID: 3479426222669081918, guid: 7839f5d39646f724d9dfeb5a9e89e756, type: 3}
       propertyPath: sceneId
       value: 1597976383
-      objectReference: {fileID: 0}
-    - target: {fileID: 4627109706257698134, guid: 7839f5d39646f724d9dfeb5a9e89e756, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -11.782
-      objectReference: {fileID: 0}
-    - target: {fileID: 4627109706257698134, guid: 7839f5d39646f724d9dfeb5a9e89e756, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 193.817
       objectReference: {fileID: 0}
     - target: {fileID: 4811820187259015419, guid: 7839f5d39646f724d9dfeb5a9e89e756, type: 3}
       propertyPath: sceneId

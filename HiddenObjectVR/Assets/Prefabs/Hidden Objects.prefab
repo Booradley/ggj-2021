@@ -813,6 +813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hidden Object Target
       objectReference: {fileID: 0}
+    - target: {fileID: 6612566227755343431, guid: ea3c08805cec24b45b861b5f5042e411, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: 7503850043405016642, guid: ea3c08805cec24b45b861b5f5042e411, type: 3}
       propertyPath: _targetData
       value: 
@@ -1535,16 +1539,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 232248c357095ea48aa0588ef37e956f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -11.782
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 232248c357095ea48aa0588ef37e956f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 193.817
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 232248c357095ea48aa0588ef37e956f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 232248c357095ea48aa0588ef37e956f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff89c0264eb6b2046a89d3376246098a, type: 2}
     - target: {fileID: 919132149155446097, guid: 232248c357095ea48aa0588ef37e956f, type: 3}
       propertyPath: m_Name
       value: CthuluStatue
