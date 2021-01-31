@@ -399,6 +399,7 @@
             <e p="NetworkManager.cs" t="Include" />
             <e p="NetworkPlayer.cs" t="Include" />
           </e>
+          <e p="OctopusController.cs" t="Include" />
         </e>
         <e p="Smooth Sync" t="Include">
           <e p="Common" t="Include">

@@ -25,6 +25,9 @@ namespace EmeraldActivities
         [SerializeField]
         private FishController[] _fishControllers;
 
+        [SerializeField]
+        private OctopusController[] _octopusControllers;
+
         private void Start()
         {
             _networkManager.OnPlayerAdded += HandlePlayerAdded;
@@ -46,6 +49,11 @@ namespace EmeraldActivities
             {
                 fishController.AddPlayer(conn, player);
             }
+
+            foreach (OctopusController octopusController in _octopusControllers)
+            {
+                octopusController.AddPlayer(conn, player);
+            }
         }
 
         private void HandlePlayerRemoved(NetworkConnection conn)
@@ -53,6 +61,11 @@ namespace EmeraldActivities
             foreach (FishController fishController in _fishControllers)
             {
                 fishController.RemovePlayer(conn);
+            }
+
+            foreach (OctopusController octopusController in _octopusControllers)
+            {
+                octopusController.RemovePlayer(conn);
             }
         }
 
