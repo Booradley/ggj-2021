@@ -10,12 +10,33 @@ namespace EmeraldActivities.Network
     {
         [SerializeField]
         private GameObject _head;
+        public GameObject Head => _head;
 
         [SerializeField]
         private GameObject _leftHand;
+        public GameObject LeftHand => _leftHand;
 
         [SerializeField]
         private GameObject _rightHand;
+        public GameObject RightHand => _rightHand;
+
+        [SerializeField]
+        private GameObject _body;
+
+        [SerializeField]
+        private GameObject _legs;
+
+        [SerializeField]
+        private Vector3 _bodyOffset;
+
+        [SerializeField]
+        private Vector3 _legsOffset;
+
+        [SerializeField]
+        private float _bodyRotationSpeed;
+
+        [SerializeField]
+        private float _legsRotationSpeed;
 
         private List<Interactable> _interactables = new List<Interactable>();
         private readonly Dictionary<Hand, Interactable> _handLookup = new Dictionary<Hand, Interactable>();
@@ -91,6 +112,12 @@ namespace EmeraldActivities.Network
 
                     _rightHand.transform.position = Player.instance.rightHand.transform.position;
                     _rightHand.transform.rotation = Player.instance.rightHand.transform.rotation;
+
+                    _body.transform.position = _head.transform.position + _bodyOffset;
+                    _body.transform.rotation = Quaternion.Slerp(_body.transform.rotation, Quaternion.LookRotation(_head.transform.forward), _bodyRotationSpeed * Time.deltaTime);
+
+                    _legs.transform.position = _head.transform.position + _legsOffset;
+                    _legs.transform.rotation = Quaternion.Slerp(_legs.transform.rotation, Quaternion.LookRotation(_head.transform.forward), _legsRotationSpeed * Time.deltaTime);
                 }
             }
         }

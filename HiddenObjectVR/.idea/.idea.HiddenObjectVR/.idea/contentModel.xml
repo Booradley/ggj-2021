@@ -387,6 +387,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AppEntry.cs" t="Include" />
+          <e p="FishController.cs" t="Include" />
           <e p="HiddenObject" t="Include">
             <e p="HiddenObject.cs" t="Include" />
             <e p="HiddenObjectController.cs" t="Include" />
