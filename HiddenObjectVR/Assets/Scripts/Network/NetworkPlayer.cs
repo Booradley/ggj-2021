@@ -27,6 +27,9 @@ namespace EmeraldActivities.Network
         private GameObject _legs;
 
         [SerializeField]
+        private ParticleSystem _teleportParticles;
+
+        [SerializeField]
         private Vector3 _bodyOffset;
 
         [SerializeField]
@@ -48,6 +51,18 @@ namespace EmeraldActivities.Network
             {
                 interactable.onAttachedToHand += HandleInteractablePickedUp;
                 interactable.onDetachedFromHand += HandleInteractableDropped;
+            }
+            
+            _teleportParticles.Stop();
+        }
+
+        public override void OnStartClient()
+        {
+            base.OnStartClient();
+            
+            if (hasAuthority)
+            { 
+                Teleport.Player.AddListener(HandleTeleport);
             }
         }
 
@@ -130,6 +145,11 @@ namespace EmeraldActivities.Network
                     _legs.transform.rotation = legsRotation;
                 }
             }
+        }
+
+        private void HandleTeleport(TeleportMarkerBase teleportMarkerBase)
+        {
+            _teleportParticles.Play();
         }
     }
 }

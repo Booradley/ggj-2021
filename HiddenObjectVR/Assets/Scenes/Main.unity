@@ -280,6 +280,10 @@ PrefabInstance:
       propertyPath: sceneId
       value: 3635670165
       objectReference: {fileID: 0}
+    - target: {fileID: 2600275940023469807, guid: 7839f5d39646f724d9dfeb5a9e89e756, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: 3079313507654222594, guid: 7839f5d39646f724d9dfeb5a9e89e756, type: 3}
       propertyPath: _networkManager
       value: 
