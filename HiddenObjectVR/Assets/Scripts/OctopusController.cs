@@ -23,6 +23,12 @@ namespace EmeraldActivities
         [SerializeField]
         private AnimationCurve _settleSpeed;
 
+        [SerializeField]
+        private float _avoidSpeedMultiplier;
+
+        [SerializeField]
+        private float _settleSpeedMultiplier;
+
         private bool _isAvoiding;
         
         private readonly Dictionary<NetworkConnection, NetworkPlayer> _playerLookup = new Dictionary<NetworkConnection, NetworkPlayer>();
@@ -42,13 +48,11 @@ namespace EmeraldActivities
                 avoidPosition.y += _avoidHeight;
                 
                 float ratio = (Vector3.Distance(transform.position, avoidPosition) / (avoidPosition.y + _avoidHeight));
-                //Debug.Log(ratio);
-                
-                transform.position = Vector3.Lerp(transform.position, avoidPosition, _avoidSpeed.Evaluate(ratio) * Time.deltaTime);
 
-                if (Mathf.Approximately(ratio, 0.1f))
+                transform.position = Vector3.Lerp(transform.position, avoidPosition, _avoidSpeed.Evaluate(ratio) * Time.deltaTime * _avoidSpeedMultiplier);
+
+                if (ratio <= 0.15f)
                 {
-                    Debug.Log("SETTLE");
                     _isAvoiding = false;
                 }
             }
@@ -61,16 +65,14 @@ namespace EmeraldActivities
                     if (Vector3.Distance(player.Head.transform.position, transform.position) <= _avoidDistance)
                     {
                         _animator.SetTrigger(Swim);
-                        Debug.Log("AVOID");
                         _isAvoiding = true;
                         break;
                     }
                 }
 
                 float ratio = 1f - (Vector3.Distance(transform.position, _initialPosition) / (_initialPosition.y + _avoidHeight));
-                //Debug.Log(ratio);
                 
-                transform.position = Vector3.Lerp(transform.position, _initialPosition, _settleSpeed.Evaluate(ratio) * Time.deltaTime);
+                transform.position = Vector3.Lerp(transform.position, _initialPosition, _settleSpeed.Evaluate(ratio) * Time.deltaTime * _settleSpeedMultiplier);
             }
         }
 

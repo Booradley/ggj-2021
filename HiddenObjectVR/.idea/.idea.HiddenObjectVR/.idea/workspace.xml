@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="762b56c0-3674-4eb8-a2dd-c38134c3ba15" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/CthuluStatue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CthuluStatue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/App Entry.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/App Entry.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Octopus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Octopus.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/OctopusController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OctopusController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +49,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/SnapTurn/SnapTurn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/App Entry.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Input/SteamVR_Action.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/SeeThru.cs" root0="FORCE_HIGHLIGHTING" />
@@ -157,7 +160,7 @@
       <workItem from="1611807958600" duration="11091000" />
       <workItem from="1611893074121" duration="9808000" />
       <workItem from="1611983573999" duration="9311000" />
-      <workItem from="1612032233900" duration="22046000" />
+      <workItem from="1612032233900" duration="22695000" />
     </task>
     <servers />
   </component>
@@ -248,24 +251,5 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612121232122" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/OctopusController.cs</url>
-          <line>56</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/OctopusController.cs" initialLine="56">
-            <startOffsets>
-              <option value="1709" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1786" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

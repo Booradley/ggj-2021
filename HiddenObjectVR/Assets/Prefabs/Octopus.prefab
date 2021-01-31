@@ -74,8 +74,8 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   _animator: {fileID: 5337010083328938894}
-  _avoidDistance: 5
-  _avoidHeight: 50
+  _avoidDistance: 2
+  _avoidHeight: 5
   _avoidSpeed:
     serializedVersion: 2
     m_Curve:
@@ -83,11 +83,20 @@ MonoBehaviour:
       time: 0
       value: 0
       inSlope: 2.942953
-      outSlope: 2.942953
-      tangentMode: 0
+      outSlope: 0.023356771
+      tangentMode: 1
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.026225768
+      outWeight: 0.7281211
+    - serializedVersion: 3
+      time: 0.09865914
+      value: 0.0026102029
+      inSlope: -0.013201756
+      outSlope: 2.909725
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.6557389
+      outWeight: 0.02843341
     - serializedVersion: 3
       time: 1
       value: 1
@@ -124,6 +133,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  _avoidSpeedMultiplier: 2
+  _settleSpeedMultiplier: 1
 --- !u!114 &2775585957065043906
 MonoBehaviour:
   m_ObjectHideFlags: 0
