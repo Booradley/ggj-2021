@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="762b56c0-3674-4eb8-a2dd-c38134c3ba15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/App Entry.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/App Entry.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Octopus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Octopus.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hidden Objects.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hidden Objects.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hidden Objects/Test 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hidden Objects/Test 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hidden Objects/Test 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hidden Objects/Test 2.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OctopusController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OctopusController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HiddenObject/HiddenObjectData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HiddenObject/HiddenObjectData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,6 @@
         <option value="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/SnapTurn/SnapTurn.cs" />
         <option value="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/Throwable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/HiddenObjectData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObject/HiddenObjectData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObject/HiddenObjectController.cs" />
         <option value="$PROJECT_DIR$/Assets/ExampleFlocking.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Network/NetworkManager.cs" />
@@ -101,6 +102,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Network/NetworkPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AppEntry.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OctopusController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObject/HiddenObjectData.cs" />
       </list>
     </option>
   </component>
@@ -160,7 +162,7 @@
       <workItem from="1611807958600" duration="11091000" />
       <workItem from="1611893074121" duration="9808000" />
       <workItem from="1611983573999" duration="9311000" />
-      <workItem from="1612032233900" duration="22695000" />
+      <workItem from="1612032233900" duration="23378000" />
     </task>
     <servers />
   </component>
