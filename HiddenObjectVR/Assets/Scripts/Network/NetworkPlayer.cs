@@ -60,6 +60,7 @@ namespace EmeraldActivities.Network
         {
             base.OnStartClient();
             
+            // TODO: This would only show locally in multi-player
             if (hasAuthority)
             { 
                 Teleport.Player.AddListener(HandleTeleport);
