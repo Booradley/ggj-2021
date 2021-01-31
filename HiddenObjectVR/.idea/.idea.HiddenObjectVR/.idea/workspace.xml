@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="762b56c0-3674-4eb8-a2dd-c38134c3ba15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HiddenObjectVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Octopus Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Octopus Controller.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Octopus.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Octopus.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Octopus.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Octopus.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CthuluStatue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CthuluStatue.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Octopus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Octopus.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AppEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AppEntry.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Source/Maya/GGJ_2021/scenes/Octopus.mlt" beforeDir="false" afterPath="$PROJECT_DIR$/../Source/Maya/GGJ_2021/scenes/Octopus.mlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OctopusController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OctopusController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +157,7 @@
       <workItem from="1611807958600" duration="11091000" />
       <workItem from="1611893074121" duration="9808000" />
       <workItem from="1611983573999" duration="9311000" />
-      <workItem from="1612032233900" duration="20824000" />
+      <workItem from="1612032233900" duration="22046000" />
     </task>
     <servers />
   </component>
@@ -252,5 +248,24 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612121232122" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/OctopusController.cs</url>
+          <line>56</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/OctopusController.cs" initialLine="56">
+            <startOffsets>
+              <option value="1709" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1786" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

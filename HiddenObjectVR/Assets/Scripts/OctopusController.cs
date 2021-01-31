@@ -17,6 +17,12 @@ namespace EmeraldActivities
         [SerializeField]
         private float _avoidHeight;
 
+        [SerializeField]
+        private AnimationCurve _avoidSpeed;
+
+        [SerializeField]
+        private AnimationCurve _settleSpeed;
+
         private bool _isAvoiding;
         
         private readonly Dictionary<NetworkConnection, NetworkPlayer> _playerLookup = new Dictionary<NetworkConnection, NetworkPlayer>();
@@ -32,24 +38,39 @@ namespace EmeraldActivities
         {
             if (_isAvoiding)
             {
+                Vector3 avoidPosition = _initialPosition;
+                avoidPosition.y += _avoidHeight;
                 
+                float ratio = (Vector3.Distance(transform.position, avoidPosition) / (avoidPosition.y + _avoidHeight));
+                //Debug.Log(ratio);
+                
+                transform.position = Vector3.Lerp(transform.position, avoidPosition, _avoidSpeed.Evaluate(ratio) * Time.deltaTime);
+
+                if (Mathf.Approximately(ratio, 0.1f))
+                {
+                    Debug.Log("SETTLE");
+                    _isAvoiding = false;
+                }
             }
             else
             {
                 foreach (KeyValuePair<NetworkConnection, NetworkPlayer> kvp in _playerLookup)
                 {
                     NetworkPlayer player = kvp.Value;
-
+                    
                     if (Vector3.Distance(player.Head.transform.position, transform.position) <= _avoidDistance)
                     {
                         _animator.SetTrigger(Swim);
-                        
+                        Debug.Log("AVOID");
                         _isAvoiding = true;
                         break;
                     }
                 }
 
-                transform.position = Vector3.Lerp(transform.position, _initialPosition, Time.deltaTime);
+                float ratio = 1f - (Vector3.Distance(transform.position, _initialPosition) / (_initialPosition.y + _avoidHeight));
+                //Debug.Log(ratio);
+                
+                transform.position = Vector3.Lerp(transform.position, _initialPosition, _settleSpeed.Evaluate(ratio) * Time.deltaTime);
             }
         }
 
