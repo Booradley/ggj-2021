@@ -16,6 +16,14 @@ namespace EmeraldActivities
         [SerializeField]
         private Rigidbody _rigidBody;
 
+        [SerializeField]
+        private MeshRenderer _renderer;
+
+        private void Start()
+        {
+            _renderer.material.SetColor("_MainColor", _data.Color);
+        }
+
         public void Reset()
         {
             _rigidBody.isKinematic = true;
