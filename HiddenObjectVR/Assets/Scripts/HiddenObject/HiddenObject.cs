@@ -14,6 +14,9 @@ namespace EmeraldActivities
         private Interactable _interactable;
 
         [SerializeField]
+        private Throwable _throwable;
+
+        [SerializeField]
         private Rigidbody _rigidBody;
 
         [SerializeField]
@@ -42,6 +45,7 @@ namespace EmeraldActivities
         {
             _rigidBody.isKinematic = false;
             _interactable.enabled = true;
+            _throwable.enabled = true;
         }
 
         public void HandleAttachedToTarget()
@@ -54,6 +58,7 @@ namespace EmeraldActivities
             
             // Disable it
             _interactable.enabled = false;
+            _throwable.enabled = false;
             _rigidBody.isKinematic = true;
         }
 

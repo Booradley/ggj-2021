@@ -249,6 +249,7 @@ MonoBehaviour:
   syncInterval: 0.1
   _data: {fileID: 11400000, guid: b1039c03ab46fb245884bf11112a9943, type: 2}
   _interactable: {fileID: 314832910655153641}
+  _throwable: {fileID: 314832910655153639}
   _rigidBody: {fileID: 314832910655153638}
   _renderer: {fileID: 5101025071862610887}
   _audioSource: {fileID: -8196903501225672094}
