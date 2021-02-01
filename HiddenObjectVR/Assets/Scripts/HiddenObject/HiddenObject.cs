@@ -34,6 +34,9 @@ namespace EmeraldActivities
         private void Start()
         {
             _renderer.material.SetColor("_Color", _data.Color);
+            _renderer.material.EnableKeyword("_EMISSION");
+            _renderer.material.SetColor("_EmissionColor", Color.black);
+            
             _rigidBody.drag = 2.5f;
             _rigidBody.angularDrag = 1.0f;
 
@@ -46,6 +49,8 @@ namespace EmeraldActivities
             _rigidBody.isKinematic = false;
             _interactable.enabled = true;
             _throwable.enabled = true;
+            
+            _renderer.material.SetColor("_EmissionColor", Color.black);
         }
 
         public void HandleAttachedToTarget()
@@ -60,6 +65,8 @@ namespace EmeraldActivities
             _interactable.enabled = false;
             _throwable.enabled = false;
             _rigidBody.isKinematic = true;
+            
+            _renderer.material.SetColor("_EmissionColor", _data.Color);
         }
 
         public void PlaySound(AudioClip clip){
