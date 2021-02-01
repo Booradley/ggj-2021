@@ -76,7 +76,7 @@ MonoBehaviour:
   syncInterval: 0.1
   _animator: {fileID: 5337010083328938894}
   _avoidDistance: 3
-  _avoidHeight: 5
+  _avoidHeight: 8
   _avoidSpeed:
     serializedVersion: 2
     m_Curve:
