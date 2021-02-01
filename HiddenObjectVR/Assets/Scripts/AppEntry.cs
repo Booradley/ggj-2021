@@ -1,22 +1,13 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using Mirror;
-using Unity.XR.OpenVR;
 using UnityEngine;
-using UnityEngine.XR;
-using UnityEngine.XR.Management;
 using Valve.VR;
-using Valve.VR.InteractionSystem;
 using NetworkManager = EmeraldActivities.Network.NetworkManager;
 
 namespace EmeraldActivities
 {
     public class AppEntry : NetworkBehaviour
     {
-        [SerializeField]
-        private OpenVRLoader _openVRLoader;
-        
         [SerializeField]
         private NetworkManager _networkManager;
         
@@ -31,6 +22,7 @@ namespace EmeraldActivities
 
         [SerializeField]
         AudioSource _audioSource;
+        
         [SerializeField]
         AudioClip _winAudio;
 
@@ -84,19 +76,21 @@ namespace EmeraldActivities
         {
             _audioSource.PlayOneShot(_winAudio);
             
-            yield return new WaitForSeconds(_winAudio.length);
+            yield return new WaitForSeconds(5f);
             
             SteamVR_Fade.Start( Color.clear, 0 );
-            SteamVR_Fade.Start( Color.black, 0.5f );
+            SteamVR_Fade.Start( Color.black, 8f );
             
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(8f);
+            
+            _audioSource.Play();
 
             _hiddenObjectController.Reset();
             _hiddenObjectController.HideObjects();
             
             yield return new WaitForSeconds(1.5f);
             
-            SteamVR_Fade.Start( Color.clear, 0.5f );
+            SteamVR_Fade.Start( Color.clear, 1.5f );
         }
     }
 }

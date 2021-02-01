@@ -750,6 +750,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -10.896
       objectReference: {fileID: 0}
+    - target: {fileID: -3434350567548500709, guid: 4215b9a577488d6438584c77ece4c641, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4488290b16f683e4c918f64c674863b7, type: 2}
     - target: {fileID: 919132149155446097, guid: 4215b9a577488d6438584c77ece4c641, type: 3}
       propertyPath: m_Name
       value: Avatar_Squid_Left_Hand
@@ -824,6 +828,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2327538132151739293, guid: 16a5db7158a472c4795828376cb02d7f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 256c14e7c1740ae4d845e42697aa8afa, type: 2}
     - target: {fileID: 919132149155446097, guid: 16a5db7158a472c4795828376cb02d7f, type: 3}
       propertyPath: m_Name
       value: Avatar_Squid_Chest
@@ -898,6 +906,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -5.354
       objectReference: {fileID: 0}
+    - target: {fileID: -5148356550240689748, guid: c0119051194919147ace6914f7261ca7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4488290b16f683e4c918f64c674863b7, type: 2}
     - target: {fileID: 919132149155446097, guid: c0119051194919147ace6914f7261ca7, type: 3}
       propertyPath: m_Name
       value: Avatar_Squid_Right_Hand
@@ -972,6 +984,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1051994270311907748, guid: 2a02706fae73c314192f73e1d66f8a9f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2ab584e9fbf289d4fa5bfa42022e1b97, type: 2}
     - target: {fileID: 919132149155446097, guid: 2a02706fae73c314192f73e1d66f8a9f, type: 3}
       propertyPath: m_Name
       value: Avatar_Squid_Tentacles
@@ -1110,6 +1126,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -7081545088817117938, guid: d4fdbe7c8e9074443852bd32e5eb06fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4488290b16f683e4c918f64c674863b7, type: 2}
     - target: {fileID: -3949725608102485153, guid: d4fdbe7c8e9074443852bd32e5eb06fc, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -1126,6 +1146,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7698002331669077456, guid: d4fdbe7c8e9074443852bd32e5eb06fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4488290b16f683e4c918f64c674863b7, type: 2}
+    - target: {fileID: 8063855708331501847, guid: d4fdbe7c8e9074443852bd32e5eb06fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4488290b16f683e4c918f64c674863b7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4fdbe7c8e9074443852bd32e5eb06fc, type: 3}
 --- !u!4 &1832680567251322529 stripped
